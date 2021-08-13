@@ -2,7 +2,7 @@
   "short_name": "Digital Clock",
   "name": "Digital Clock",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "https://scitechcollege.github.io/digital-clock/",
   "theme_color": "red",
   "background_color": "blue",
   "icons": [{
