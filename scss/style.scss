@@ -1,0 +1,48 @@
+$normal: 50px;
+$large: 80px;
+
+@mixin center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.clock {
+  height: 100vh;
+  background-image: url(../images/clock_bg.png);
+  background-size: cover;
+  position: relative;
+
+  .date {
+    position: absolute;
+    top: 45px;
+    left: 45px;
+  }
+
+  .time {
+    @include center;
+    font-size: $normal;
+    text-align: center;
+
+    #second {
+      font-size: $large;
+    }
+  }
+}
+
+/* 横向きの場合のスタイル */
+@media (orientation: landscape) {
+  .time {
+    br {
+      display: none;
+    }
+  }
+}

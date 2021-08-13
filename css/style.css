@@ -1,0 +1,2 @@
+body{background-color:#ffffff;font-family:'Roboto Mono', monospace;font-size:16px;color:#ffffff}.clock{height:100vh;background-image:url(../images/clock_bg.png);background-size:cover;position:relative}.clock .date{position:absolute;top:45px;left:45px}.clock .time{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);font-size:50px;text-align:center}.clock .time #second{font-size:80px}@media (orientation: landscape){.time br{display:none}}
+/*# sourceMappingURL=style.css.map */
